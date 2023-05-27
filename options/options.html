@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Keyboard shortcut</legend>
+        <label for="shortcut">Enter a keyboard shortcut:</label>
+        <input type="text" id="shortcut" placeholder="Ctrl+Shift+J" />
+        <button type="submit" id="shortcut-update">Update</button>
+        <button type="button" id="shortcut-reset">Reset</button>
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend>Button Icon</legend>
+        <label
+          ><input type="radio" name="favicon-option" value="addon" checked />Use
+          addon icon (default)</label
+        ><br />
+        <label
+          ><input type="radio" name="favicon-option" value="website" />Use
+          website favicon</label
+        >
+      </fieldset>
+    </form>
+    <script src="options.js"></script>
+  </body>
+</html>
