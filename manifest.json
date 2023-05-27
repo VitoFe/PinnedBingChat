@@ -1,0 +1,49 @@
+{
+  "manifest_version": 2,
+  "name": "Pinned Bing Chat",
+  "short_name": "Bing Pin",
+  "author": "Vito Ferri",
+  "version": "1.0.0",
+  "description": "Go to the pinned Bing Chat tab. If it doesn't exist, it's created.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  },
+  "web_accessible_resources": ["icons/*"],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "storage",
+    "http://*.bing.com/*",
+    "https://*.bing.com/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/icon-32.png"
+    },
+    "default_title": "Pinned Bing Chat",
+    "default_area": "navbar"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+B"
+      }
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bingpin@vitoferri.com"
+    }
+  }
+}

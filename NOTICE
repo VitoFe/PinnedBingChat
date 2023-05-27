@@ -1,0 +1,9 @@
+This project uses some code from Bing Chat for All Browsers, an addon that allows users to interact with Bing in different browsers.
+
+Bing Chat for All Browsers is licensed under the MIT License, which is a permissive open source license that grants permission to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software.
+
+The original code of Bing Chat for All Browsers can be found at https://github.com/anaclumos/bing-chat-for-all-browsers.
+
+Only one portion of this project is derived from Bing Chat for All Browsers, with some modifications, in the background.json file.
+
+The rest of the files in this project are original and not related to Bing Chat for All Browsers.
