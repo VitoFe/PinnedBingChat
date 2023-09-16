@@ -1,6 +1,6 @@
 # Pinned Bing Chat :pushpin:
 
-Firefox addon that creates a pinned tab for Bing Chat, allowing to quickly switch to the tab whenever you need to access the chat. To use this add-on, you must have Firefox installed and you may have to be logged in your Microsoft account, with access to the Bing Chat feature.
+Firefox addon that creates a pinned tab for Bing Chat, allowing to quickly switch to the tab whenever you need to access the chat. To use this add-on, you must have Firefox installed and you may have to be logged in your Micro$oft account, with access to the Bing Chat feature.
 
 ## Installing an official release :inbox_tray:
 
@@ -19,9 +19,9 @@ Download the extension from the official public listing or grab the latest compi
 
 - Configure the add-on as needed, from the Add-ons options (read Options section)
 - Click on the add-on button in the Firefox toolbar
-- The add-on will create a pinned tab for Bing Chat
+- The add-on will create a pinned tab for accessing the AI Chat
 - The button icon can be set according to the user's preference (either the add-on's icon or the website's favicon)
-- If a pinned Bing Chat tab already exists, it will be activated instead of creating a new one
+- If a pinned Chat tab already exists, it will be activated instead of creating a new one
 
 ## Options :gear:
 
@@ -29,7 +29,7 @@ Download the extension from the official public listing or grab the latest compi
 
 - Click on the three horizontal lines in the Firefox toolbar
 - Click on "Add-ons"
-- Find the "Pinned Bing Chat" add-on and click on the "Options" button
+- Find the add-on and click on the "Options" button
 - Update the shortcut or the icon style as needed
 
 ## Contributing :handshake:
