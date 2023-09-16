@@ -4,7 +4,7 @@
   "short_name": "Bing Pin",
   "author": "Vito Ferri",
   "version": "1.0.0",
-  "description": "Go to the pinned Bing Chat tab. If it doesn't exist, it's created.",
+  "description": "Go to the pinned Chat tab. If it doesn't exist, it's created.",
   "icons": {
     "32": "icons/icon-32.png",
     "48": "icons/icon-48.png",
