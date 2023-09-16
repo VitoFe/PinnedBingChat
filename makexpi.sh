@@ -12,7 +12,7 @@ mkdir "icons"
 for res in "${resolutions[@]}"
 do
     inkscape "./svg/base.svg" -C -w $res -h $res -o "./icons/icon-${res}.png"
-    inkscape "./svg/base_addon.svg" -C -w $res -h $res -o "./icons/addon-${res}.png"
+    inkscape "./svg/base.svg" -C -w $res -h $res -o "./icons/addon-${res}.png"
 done
 
 
