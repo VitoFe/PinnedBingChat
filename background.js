@@ -99,8 +99,8 @@ browser.runtime.onInstalled.addListener(update);
                       ? void 0
                       : a.toLowerCase().includes("mobile")
                   )
-                    ? (e.value = r("EdgA/42.0.0.2057", !0))
-                    : (e.value = r("Edg/112.0.1722.48", !1))),
+                    ? (e.value = r("EdgA/116.0.1938.72", !0))
+                    : (e.value = r("Edg/117.0.2045.31", !1))),
                 e
               );
             }),
