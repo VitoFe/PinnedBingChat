@@ -3,7 +3,7 @@
   "name": "Pinned Bing Chat",
   "short_name": "Bing Pin",
   "author": "Vito Ferri",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Go to the pinned Chat tab. If it doesn't exist, it's created.",
   "icons": {
     "32": "icons/icon-32.png",
