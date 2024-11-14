@@ -17,7 +17,7 @@ function setButtonIcon(imageURL) {
 async function createPinnedTab() {
   try {
     let tab = await browser.tabs.create({
-      url: "https://bing.com/chat",
+      url: "https://copilot.microsoft.com",
       pinned: true,
       active: true,
     });
@@ -81,8 +81,8 @@ browser.runtime.onInstalled.addListener(update);
     r = (e, r) =>
       navigator.userAgent.includes("Firefox")
         ? r
-          ? `Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 ${e}`
-          : `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 ${e}`
+          ? `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.3 ${e}`
+          : `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.3 ${e}`
         : `${navigator.userAgent} ${e}`;
   e &&
     chrome.webRequest.onBeforeSendHeaders.addListener(
@@ -99,8 +99,8 @@ browser.runtime.onInstalled.addListener(update);
                       ? void 0
                       : a.toLowerCase().includes("mobile")
                   )
-                    ? (e.value = r("EdgA/116.0.1938.72", !0))
-                    : (e.value = r("Edg/117.0.2045.31", !1))),
+                    ? (e.value = r("EdgA/130.0.2849.68", !0))
+                    : (e.value = r("Edg/130.0.0.", !1))),
                 e
               );
             }),
