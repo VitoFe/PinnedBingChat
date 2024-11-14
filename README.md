@@ -1,6 +1,6 @@
-# Pinned Bing Chat :pushpin:
+# Pinned Copilot :pushpin:
 
-Firefox addon that creates a pinned tab for Bing Chat, allowing to quickly switch to the tab whenever you need to access the chat. To use this add-on, you must have Firefox installed and you may have to be logged in your MS account, with access to the AI Chat feature.
+Firefox addon that creates a pinned tab for Copilot, allowing to quickly switch to the tab whenever you need to access the chat. To use this add-on, you must have Firefox installed and you may have to be logged in your MS account, with access to the AI Chat feature.
 
 ## Installing an official release :inbox_tray:
 
@@ -25,7 +25,7 @@ Download the extension from the official public listing or grab the latest compi
 
 ## Options :gear:
 
-### To change the shortcut to switch to the Bing Chat tab or the button icon, go to the options page:
+### To change the shortcut to switch to the Chat tab or the button icon, go to the options page:
 
 - Click on the three horizontal lines in the Firefox toolbar
 - Click on "Add-ons"
@@ -39,4 +39,4 @@ If you find any bugs or have any suggestions for improvements, please open an is
 ## License :page_with_curl:
 
 This project is licensed under the GPLv3 License - see the LICENSE file included in this project for details.
-This project uses some code from Bing Chat for All Browsers, specifically the code that allows Bing Chat to be used in Firefox. The rest of the code in this project is original and not related to Bing Chat for All Browsers - see the NOTICE file included in this project for details.
+See the NOTICE file included in this project for details.
